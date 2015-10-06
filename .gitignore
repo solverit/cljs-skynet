@@ -5,3 +5,4 @@
 /checkouts
 /.lein-*
 /.nrepl-port
+/.idea
