@@ -1,1 +1,1 @@
-cljs_skynet.background.init();
+skynet.background.init();

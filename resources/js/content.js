@@ -1,1 +1,1 @@
-cljs_skynet.content.init();
+skynet.content.init();

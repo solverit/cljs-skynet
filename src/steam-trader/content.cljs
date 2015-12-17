@@ -1,4 +1,4 @@
-(ns cljs-skynet.popup
+(ns skynet.content
   (:require [khroma.runtime :as runtime]
             [khroma.log :as console]
             [cljs.core.async :refer [>! <!]])
@@ -6,5 +6,5 @@
 
 (defn init []
   (let [bg (runtime/connect)]
-    (go (>! bg :lol-i-am-a-popup)
+    (go (>! bg :lol-i-am-a-content-script)
         (console/log "Background said: " (<! bg)))))

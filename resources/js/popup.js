@@ -1,1 +1,1 @@
-cljs_skynet.popup.init();
+skynet.popup.init();

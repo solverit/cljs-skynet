@@ -1,4 +1,4 @@
-(ns cljs-skynet.new-tab
+(ns skynet.tab
   (:require [khroma.runtime :as runtime]
             [khroma.log :as console]
             [cljs.core.async :refer [>! <!]])

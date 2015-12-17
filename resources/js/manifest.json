@@ -1,5 +1,5 @@
 {
-  "name": "cljs-skynet",
+  "name": "steam-trader",
   "version": "0.0.1",
   "browser_action": {
       "default_title": "Show the popup",
@@ -18,15 +18,15 @@
  "content_scripts": [
     {
       "matches": ["*://*/*"],
-      "js": ["cljs_skynet.js", "content.js"],
+      "js": ["skynet.js", "content.js"],
       "run_at": "document_end"
     }
   ],
   "chrome_url_overrides": {
-    "newtab": "new-tab.html"
+    "newtab": "tab.html"
   },
   "background": {
-    "scripts": ["cljs_skynet.js", "background.js"],
+    "scripts": ["skynet.js", "background.js"],
     "persistent": false
   },
   "manifest_version": 2

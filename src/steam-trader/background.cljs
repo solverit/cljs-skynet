@@ -1,4 +1,4 @@
-(ns cljs-skynet.background
+(ns skynet.background
   (:require [khroma.log :as console]
             [khroma.runtime :as runtime]
             [cljs.core.async :refer [>! <!]])
